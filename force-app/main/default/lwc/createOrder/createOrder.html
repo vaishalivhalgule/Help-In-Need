@@ -1,0 +1,10 @@
+<template>
+    <lightning-card title="Please Complete the following details and submit">
+<h1><b>Order Details:</b></h1>
+        <lightning-record-form
+    object-api-name="Orders__c"
+    fields={fields}
+    onsuccess={handleSuccess}>
+</lightning-record-form>
+    </lightning-card>
+</template>
